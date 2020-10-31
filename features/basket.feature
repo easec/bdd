@@ -18,7 +18,7 @@ Feature: Product basket
 		Given there is a "Sith Lord Lightsaber", which cost £15
 		When I add the "Sith Lord Lightsaber" to the basket
 		Then I should have 1 product in the basket
-		And the overall basket price should be $20
+		And the overall basket price should be £20
 
 	Scenario: Bying two products over £10
 		Given there is a "Sith Lord Lightsaber", whish costs £10
